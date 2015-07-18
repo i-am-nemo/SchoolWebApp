@@ -20,7 +20,7 @@ throws ServletException, IOException {
 try {
 	String name=request.getParameter("name");
   String emailid=request.getParameter("emailid");
-  
+  //Push to git
   LoginUser user = new LoginUser();
   user.setName(name);
   user.setEmailid(emailid);
